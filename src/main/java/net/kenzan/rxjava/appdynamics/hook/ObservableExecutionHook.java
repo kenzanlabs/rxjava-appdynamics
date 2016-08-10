@@ -18,13 +18,6 @@ import rx.plugins.RxJavaObservableExecutionHook;
  */
 public class ObservableExecutionHook extends RxJavaObservableExecutionHook {
     
-    private static ObservableExecutionHook INSTANCE = new ObservableExecutionHook();
-    
-    public static ObservableExecutionHook getInstance() {
-        
-        return INSTANCE;
-    }
-    
     /* (non-Javadoc)
      * @see rx.plugins.RxJavaObservableExecutionHook#onCreate(rx.Observable.OnSubscribe)
      */
