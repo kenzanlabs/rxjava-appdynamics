@@ -4,7 +4,7 @@
 ## Information
 | Package       | Description   | Version|
 | ------------- |:-------------:| ------:|
-| rxjava-appdynamics| Hooks for Appdynamics to instrument rxjava streams | 1.0.0-rc1 |
+| rxjava-appdynamics| Hooks for Appdynamics to instrument rxjava streams | 0.0.1-SNAPSHOT |
 
 # Overview
 rxjava-appdynamics provides specific hooks for Appdynamics to instrument rxjava streams
