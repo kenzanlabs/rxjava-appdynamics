@@ -29,4 +29,5 @@ Maven:
 - onLift: via AppdOperator
 - onSubscribeReturn: via AppdSubscription
 
-
+# Wiki
+Wiki for this library for in-depth information: [Wiki](https://github.com/kenzanmedia/rxjava-appdynamics/wiki)
