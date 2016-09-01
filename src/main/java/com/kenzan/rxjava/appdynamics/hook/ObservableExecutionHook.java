@@ -1,11 +1,12 @@
 /**
  * 
  */
-package net.kenzan.rxjava.appdynamics.hook;
+package com.kenzan.rxjava.appdynamics.hook;
 
-import net.kenzan.rxjava.appdynamics.decorators.AppdOnSubscribe;
-import net.kenzan.rxjava.appdynamics.decorators.AppdOperator;
-import net.kenzan.rxjava.appdynamics.decorators.AppdSubscription;
+import com.kenzan.rxjava.appdynamics.decorators.AppdOnSubscribe;
+import com.kenzan.rxjava.appdynamics.decorators.AppdOperator;
+import com.kenzan.rxjava.appdynamics.decorators.AppdSubscription;
+
 import rx.Observable;
 import rx.Subscription;
 import rx.Observable.OnSubscribe;

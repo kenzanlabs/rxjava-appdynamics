@@ -1,29 +1,30 @@
 /**
  * 
  */
-package net.kenzan.rxjava.appdynamics.decorators;
+package com.kenzan.rxjava.appdynamics.decorators;
 
-import rx.Observable.OnSubscribe;
+import rx.Observable.Operator;
 import rx.Subscriber;
 
 /**
  * @author darshanrambhia
+ * @param <R>
  * @param <T>
  *
  */
-public class AppdOnSubscribe<T> implements OnSubscribe<T>{
+public class AppdOperator<R, T> implements Operator<R, T> {
 
     private String appdCorrelationKey;
-    private final OnSubscribe<T> actual;
+    private final Operator<? extends R, ? super T> actual;
     
-    public AppdOnSubscribe(final OnSubscribe<T> actual) {
+    public AppdOperator(final Operator<? extends R, ? super T> actual) {
         this.actual = actual;
     }
 
     @Override
-    public void call(Subscriber<? super T> t) {
+    public Subscriber<? super T> call(Subscriber<? super R> t) {
         
-        actual.call(t);
+        return actual.call(t);
     }
     
     public String getAppdCorrelationKey() {

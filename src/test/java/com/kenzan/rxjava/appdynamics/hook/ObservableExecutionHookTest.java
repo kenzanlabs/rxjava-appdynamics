@@ -1,10 +1,11 @@
-package net.kenzan.rxjava.appdynamics.hook;
+package com.kenzan.rxjava.appdynamics.hook;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
 
+import com.kenzan.rxjava.appdynamics.hook.ObservableExecutionHook;
 import com.netflix.config.ConfigurationManager;
 
 import rx.plugins.RxJavaObservableExecutionHook;

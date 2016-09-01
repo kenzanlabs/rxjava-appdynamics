@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.kenzan.rxjava.appdynamics.decorators;
+package com.kenzan.rxjava.appdynamics.decorators;
 
 import rx.Subscription;
 
