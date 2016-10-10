@@ -108,6 +108,7 @@
                     <excludes>
                         <exclude>**/README</exclude>
                         <exclude>**/LICENSE</exclude>
+                        <exclude>travis/*</exclude>
                         <exclude>src/test/resources/**</exclude>
                         <exclude>src/main/resources/**</exclude>
                     </excludes>
