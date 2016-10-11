@@ -1,4 +1,4 @@
-## RxJava-AppDynamics
+## RxJava-AppDynamics [![Build Status](https://travis-ci.org/kenzanlabs/rxjava-appdynamics.svg?branch=master)](https://travis-ci.org/kenzanlabs/rxjava-appdynamics)
 
 
 # Overview
