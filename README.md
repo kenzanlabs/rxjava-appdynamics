@@ -18,7 +18,7 @@ Using RxJava-AppDynamics is a two-step process:
 
 ```
 <dependency>    
-    <groupId>net.kenzan.rxjava</groupId>
+    <groupId>com.kenzan.rxjava</groupId>
     <artifactId>rxjava-appdynamics</artifactId>
     <version>0.0.1</version>
 </dependency> 
