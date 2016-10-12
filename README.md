@@ -4,8 +4,6 @@
 # Overview
 rxjava-appdynamics provides specific hooks for Appdynamics to instrument rxjava streams
 
-**Latest Release: 0.0.1**
-
 # Usage
 Using RxJava-AppDynamics is a two-step process:
 
@@ -20,7 +18,7 @@ Using RxJava-AppDynamics is a two-step process:
 <dependency>    
     <groupId>com.kenzan.rxjava</groupId>
     <artifactId>rxjava-appdynamics</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency> 
 ```
 
