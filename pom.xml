@@ -57,7 +57,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/kenzanlabs/rxjava-appdynamics.git</connection>
-        <developerConnection>scm:git:ssh://github.com:kenzanlabs/rxjava-appdynamics.git</developerConnection>
+        <developerConnection>scm:git:ssh://github.com/kenzanlabs/rxjava-appdynamics.git</developerConnection>
         <url>http://github.com/kenzanlabs/rxjava-appdynamics/tree/master</url>
     </scm>
 
